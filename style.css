@@ -15,7 +15,6 @@ body {
 }
 
 #container {
-  border: 2px solid black;
   border-radius: 10px 10px 150px 10px;
   width: 600px;
   height: 600px;
@@ -33,6 +32,14 @@ margin-left: 20px;
 .col {
     display: flex;
     flex-direction: column;
+    width: 25%;
+  
+}
+
+#day, #month, #year {
+    padding: 10px 0 10px 10px;
+    font-weight: bold;
+    font-size: 20px;
 }
 /*
 .row {
@@ -86,11 +93,14 @@ input {
 #years, #months, #days {
     display: flex;
     flex-direction: row; 
-    color:  hsl(259, 100%, 65%);;
+    font-weight: bold;
+  
 }
 
 .samma{
     margin-left: 20px;
-    color: black;
+    margin-right: 10px;
+    color:  hsl(259, 100%, 65%);
+    font-weight: bold;
 }
   

@@ -23,9 +23,9 @@ document.addEventListener("DOMContentLoaded", function () {
       ageInMilliseconds %= 2592000000;
       let days = Math.floor(ageInMilliseconds / 86400000);
 
-      let yearsText = `${years} years`;
-      let monthsText = `${months} months`;
-      let daysText = `${days} days`;
+      let yearsText = `${years}`;
+      let monthsText = `${months}`;
+      let daysText = `${days}`;
 
       if (years === 0 && months === 0 && days === 0) {
         underContainer.querySelector("#years div").textContent = "--";
